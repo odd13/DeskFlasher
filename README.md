@@ -12,7 +12,7 @@ In order to get this working you will requried the following:
 * 5v power source
 ### Software
 * Operating System: Rasbian <link>www.raspberrypi.org</link>
-* ServoD
+* [ServoBlaster |https://github.com/richardghirst/PiBits/tree/master/ServoBlaster] 
 * Python Version (pre installed with OS)
 #### Check You're Compatible
 <code>~$ python --version</code></br>
