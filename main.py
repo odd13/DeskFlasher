@@ -1,10 +1,9 @@
-import deskled
 import time
+from DeskLight import DeskLight
 
-
+desklight1 = DeskLight()
 
 while True:
-        deskled.pwm()
-        time.sleep(2)
-        deskled.flasher(5,3) #how many, pause in seconds
-
+  desklight1.flash(5,3)
+  time.sleep(2)
+  desklight1.dim_up_and_down()
